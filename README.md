@@ -4,7 +4,7 @@ Tiny Storage is a minimal, DI-ready file/object storage abstraction that allows 
 
 ## What and Why?
 
-My personal use case for Tiny Storage is small, self-hosted web services that currently need to store data on the device's file system. As usual for .NET developers, I wanted an abstraction for "object storage" because those services might store data at another location like Azure Blob Storage or similar in the future (spoiler: that won't happen, but hey...).
+My personal use case for Tiny Storage is small, self-hosted web services that currently need to store data on the file system. As usual for .NET developers, I wanted an abstraction, in this case for "object storage" because those services might store data at another location like Azure Blob Storage or similar in the future (spoiler: that won't happen, but hey...).
 
 Tiny Storage is a **minimal abstraction** for storing files at an arbitrary location.
 
