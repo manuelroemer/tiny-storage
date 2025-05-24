@@ -1,0 +1,19 @@
+# MacOS
+.DS_Store
+
+# Sensitive files.
+.env
+
+# IDE files
+.vs
+.idea
+*.sln.iml
+*.DotSettings.user
+
+# Build results
+[Bb]in
+[Oo]bj
+dist
+
+# npm
+node_modules

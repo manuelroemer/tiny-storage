@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinyStorage", "src\TinyStorage\TinyStorage.csproj", "{85C9F00A-7D32-48FC-ADA8-FCC76FA76607}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{4D1731A3-F1C0-4A17-8440-351E4EE0E4D9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CHANGELOG.md = CHANGELOG.md
+		Default.ruleset = Default.ruleset
+		Directory.Build.props = Directory.Build.props
+		global.json = global.json
+		README.md = README.md
+		Tests.ruleset = Tests.ruleset
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyStorage.Tests", "src\TinyStorage.Tests\TinyStorage.Tests.csproj", "{528DC55C-CEE6-4E39-AD0E-10F987AD31D8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85C9F00A-7D32-48FC-ADA8-FCC76FA76607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85C9F00A-7D32-48FC-ADA8-FCC76FA76607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85C9F00A-7D32-48FC-ADA8-FCC76FA76607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85C9F00A-7D32-48FC-ADA8-FCC76FA76607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528DC55C-CEE6-4E39-AD0E-10F987AD31D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528DC55C-CEE6-4E39-AD0E-10F987AD31D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528DC55C-CEE6-4E39-AD0E-10F987AD31D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528DC55C-CEE6-4E39-AD0E-10F987AD31D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C3B983D-335E-49EE-9998-3AE5C5FC13FB}
+	EndGlobalSection
+EndGlobal
