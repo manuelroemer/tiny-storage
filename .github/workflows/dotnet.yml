@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.x
-    - name: Restore dependencies
+    - name: Restore Dependencies
       run: dotnet restore
     - name: Build
       run: dotnet build --no-restore
@@ -34,11 +34,11 @@ jobs:
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: 8.x
-      - name: Restore dependencies
+      - name: Restore Dependencies
         run: dotnet restore
-      - name: Pack NuGet package
+      - name: Pack NuGet Package
         run: dotnet pack --no-restore -c Release -o ./artifacts
-      - name: Upload NuGet artifact
+      - name: Upload NuGet Artifact
         uses: actions/upload-artifact@v4
         with:
           name: Packages
