@@ -12,7 +12,7 @@
     <RepositoryUrl>https://github.com/manuelroemer/tiny-storage</RepositoryUrl>
     <PackageProjectUrl>https://github.com/manuelroemer/tiny-storage</PackageProjectUrl>
     <PackageReleaseNotes>https://github.com/manuelroemer/tiny-storage/blob/main/CHANGELOG.md</PackageReleaseNotes>
-    <PackageTags>tiny-storage asp.net selfhosted self-hosted framework</PackageTags>
+    <PackageTags>tiny-storage file filesystem abstraction library</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <Copyright>Copyright (c) 2025 Manuel Römer</Copyright>
