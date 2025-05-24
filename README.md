@@ -1,4 +1,4 @@
-# Tiny Storage
+# Tiny Storage [![Nuget](https://img.shields.io/nuget/v/TinyStorage)](https://www.nuget.org/packages/TinyStorage)
 
 Tiny Storage is a minimal, DI-ready file/object storage abstraction that allows implementing a custom storage adapter within one hour.
 
